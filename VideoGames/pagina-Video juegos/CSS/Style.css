@@ -1,0 +1,138 @@
+body{
+    /* background-color: blue; */
+    background-image: url(../Imagenes/fondo4.gif);
+    background-repeat:no-repeat ;
+     background-position: center; 
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 1500px;
+     
+}   
+
+.logocu {
+    width: 180px;
+    height: 55px;
+}
+
+.navbar{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 60px;
+    font-size: 1.1rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.iconodetails{
+    width: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.sect1{
+    width: 100%;
+    height: 1130px;
+    padding: 0%;
+ 
+
+}
+.row{
+    margin: 30px 0px 30px 70px;
+
+}
+
+.card{
+    
+    background-color: rgba(37, 37, 37, 0.2);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px rgb(175, 172, 172);
+}
+.card:hover{
+    box-shadow: 10px 5px 5px 5px rgb(243, 9, 9);
+}
+.card img{
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: black;
+}
+.card h5{
+    color: darkred;
+    font-size: 28px;
+    font-weight: bold;
+}
+.card p{
+    font-weight: bold;
+    color: floralwhite;
+    font-size: 14px;
+}
+
+.game iframe{
+    align-content: center;
+    display: flex;
+    margin-left: 350px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.game h4{
+    margin-top: -150px;
+}
+
+.carousel{
+    width: 100%;
+    height: 400px;
+}
+.carousel-item iframe{
+    width: 50%;
+    height: 400px;
+    margin: 30px 50px 30px 340px;
+}
+
+h4{
+    background-color: black;
+    text-align: center;
+    font-size: 80px;
+    color: #fc0101;
+    box-shadow: 5px 5px 5px 5px rgb(250, 250, 250);
+  }
+
+
+
+
+
+.pelao {
+    height: 400px;
+    width: 400px;
+}
+.pelaa{
+    height: 500px;
+    width: 500px;
+}
+.colm1{
+    align-items: left;
+    width: 32%;
+    text-align: center;
+}
+
+.colm2{
+    align-items: center;
+    width: 32%;
+    text-align: center;
+}
+
+.colm3{
+    align-items: right;
+    width: 32%;
+    text-align: center;
+}
+
+.footerr{
+    height: 300px;
+}

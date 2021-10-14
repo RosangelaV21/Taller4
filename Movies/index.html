@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RE: Movies</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="descargaBootstrap/css/bootstrap.min.css" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+</head>
+
+<body>
+
+<!-- Seccion Nav -->
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logocu" src="img/umbrellalogo1.png" alt="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto text-center ml-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">VideoGames</a>
+          </li>
+        </ul>
+        <div class="login d-flex flex-row justify-content-center align-middle">
+          <div class="iconodetails">
+            <a href="https://es-la.facebook.com/residentevil.de/">
+              <img width="25px" src="Icons/facebook-circle-logo-48.png" alt="face" /></a>
+          </div>
+          <div class="iconodetails">
+            <a class="nav-link" href="https://www.instagram.com/residentevil/?hl=es">
+              <img width="25px" src="Icons/instagram-logo-48.png" alt="insta" /></a>
+          </div>
+          <div class="iconodetails">
+            <a class="nav-link" href="https://twitter.com/RE_Games?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+              <img width="25px" src="Icons/twitter-logo-48.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- seccion carousel -->
+
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/kEutwdia8n0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RESIDENT EVIL</h5>
+            <p>(2002)</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/nzF3yoF7N_E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RESIDENT EVIL: APOCALYSE</h5>
+            <p>(2004)</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/eDMjVARsCOk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RESIDENT EVIL: EXTINCTION</h5>
+            <p>(2007)</p>
+          </div>
+        </div>
+
+        <div class="carousel-item active">
+          <iframe class="trailer" width="1189" height="669" src="https://www.youtube.com/embed/iFwuzkZ2idM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RESIDENT EVIL: AFTERLIFE</h5>
+            <p>(2010)</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <iframe class="trailer" width="1189" height="669" src="https://www.youtube.com/embed/zA0e6L3e3iE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RESIDENT EVIL: RETRIBUTION</h5>
+            <p>(2012)</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+
+          <iframe class="trailer" width="1189" height="669" src="https://www.youtube.com/embed/79Sd4GtOXuI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>RESIDENT EVIL: THE FINAL CHAPTER</h5>
+            <p>(2016)</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+
+
+<!-- Seccion info general -->
+
+
+  <section class="
+        moviesinfo
+        py-2
+        text-center text-sm-center text-md-center text-lg-center text-xl-center
+      ">
+    <div class="calc()">
+     <div class="logoresi"> <img  src="img/movielogo.png" alt="rslogo" width="181" class=" logore img-fluid mx-auto py-5" /> </div>
+      <!--<h2 id="titulo" class="display-6 text-danger">MOVIES</h2>-->
+      <p class="py-3">
+        Resident Evil is an action-horror film series based on the Japanese video game franchise of the same name by
+        Capcom. German studio Constantin Film bought the rights to adapt the series in January 1998. In 2001, Screen
+        Gems acquired distribution rights and hired Paul W. S. Anderson as writer and director for Resident Evil (2002).
+        Anderson continued as writer and producer for Resident Evil: Apocalypse (2004) and Resident Evil: Extinction
+        (2007), and returned as the director for Resident Evil: Afterlife (2010), Resident Evil: Retribution (2012), and
+        Resident Evil: The Final Chapter (2016). </p>
+      <br>
+      <p>The first six films follow Alice (Milla Jovovich), a character created for the films. Alice is a former
+        security specialist and covert operative who battles the Umbrella Corporation, whose bioweapons have triggered a
+        zombie apocalypse. Characters from the games appear, including Claire Redfield, Jill Valentine, Ada Wong, Carlos
+        Olivera, Chris Redfield, Leon S. Kennedy, Barry Burton and antagonists Albert Wesker, the head of Umbrella
+        Corporation, and James Marcus, Umbrella's top virologist.</p>
+
+      <!---- <button class="btn btn-primary btn-lg"></button>-->
+    </div>
+  </section>
+
+  <section class="casting">
+    <div class="title">
+      <h4 id="cur"> Characters </h4>
+    </div>
+
+    <div class="bc">
+      <div class="container2 .container-fluid">
+
+
+
+        <div class="card2">
+          <div class="img-content " ;><img src="imagenes/ada.gif " alt="">
+            <h4>Ada Wong</h4>
+            <div class="texto">
+
+
+              <p>Ada Wong might be the live-action movies' best attempt at adapting a character from the
+                games. In both pieces of media, she has short hair, likes to wear red dresses, and is
+                morally ambiguous.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="img-content " ;><img src="imagenes/leon.gif" alt="">
+            <h4>Leon Kennedy</h4>
+            <div class="texto calc()">
+
+
+              <p>Leon S. Kennedy is not such a recurring character nor does he play such an important role. He
+                first appeared in Resident Evil: Retribution.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card2">
+          <div class="img-content "><img src="imagenes/albert.gif" alt="">
+            <h4> Albert Wesker </h4>
+            <div class="texto text-sm-start text-center">
+
+
+              <p>Albert Wesker is arguably the best villain the games have to offer. And he serves as the main
+                antagonist for much of the series. The movie version plays a large role also, but he's not
+                quite the main bad guy. </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card2">
+          <div class="img-content  "><img src="imagenes/chris.gif" alt="">
+            <h4>Chris Redfield </h4>
+            <div class="texto">
+
+              <p> During the game series, Chris Redfield features in more entries than anyone else. The
+                character is not as prevalent in the movies, though. He only appears in Afterlife, where he
+                joins a group of survivors led by Alice.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container2 .container-fluid">
+
+        <div class="card2">
+          <div class="img-content  "><img src="imagenes/jill.gif" alt="">
+            <h4>Jill Valentine</h4>
+            <div class="texto text-sm-start">
+
+              <p>Jill Valentine is Resident Evil's ultimate heroine, or at least she is during the games. In
+                the movies, her heroics are usually overshadowed by Alice. Jill still is a major part of the
+                series, especially during her run as a villain
+                in the later installments. </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="card2">
+          <div class="img-content "><img src="imagenes/claire.gif" alt="">
+            <h4>Claire Redfield</h4>
+            <div class="texto text-sm-start">
+
+              <p>Claire Redfield is one of the survivors of the global T-Virus infection and the leader of the
+                caravan that appears in Resident Evil: Extinction . As in video games, she is the younger
+                sister of Chris Redfield . </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="card2">
+          <div class="img-content  "><img src="imagenes/milla.gif" alt="">
+            <h4>Alice</h4>
+            <div class="texto">
+
+              <p>Alice , whose real name is Janus Prospero , is a fictional character and the main heroine of
+                the Resident Evil film series who has not appeared in any video game in the series
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="card2">
+          <div class="img-content "><img src="imagenes/nemesis.gif" alt="">
+            <h4>Nemesis</h4>
+            <div class="texto">
+
+              <p>The Nemesis is among the most iconic monsters in Resident Evil history. And the beast is so
+                important to the plot of Resident Evil 3 and Resident Evil: Apocalypse that he counts as a
+                character.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+
+<!-- Seccion Sinosis -->
+
+  <section class="moviecontenedor container-fluid p-5">
+
+    <div class="linemovies img-fluid">
+
+
+
+      <div class="movietextelement">
+        <div class="left">
+          <h2 class="h21" >RESIDENT EVIL</h2>
+
+
+          <p>In a clandestine genetic research center, a viral outbreak occurs. To contain the leak, the entire facility
+            is sealed and, in principle, it is believed that all employees die, but in reality they become fierce
+            zombies.</p>
+          <br>
+          <h2>RESIDENT EVIL: APOCALYPSE</h2>
+
+
+          <p>Alice is one of the survivors of the biochemical disaster that has wiped out the entire population of
+            Racoon City. Subjected to experiments that have modified her genetics, Alice now possesses more strength,
+            senses and dexterity. These skills will be what you will need to use to escape the dangerous life of Racoon
+            City. Along with other survivors, Alice must fight the forces of the Umbrella Corporation, the zombies that
+            plague the city and the most deadly creature: Nemesis.</p>
+        </div>
+        <div class="right">
+          <img class="imgmovie img-fluid" src="img/movie1.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="linemovies">
+
+
+      <div class="movietextelement">
+
+        <div class="right">
+          <img class="imgmovie img-fluid" src="img/movie2.jpg" alt="">
+        </div>
+        <div class="left">
+          <h2>RESIDENT EVIL: EXTINCTION</h2>
+
+
+          <p>Survivors of the Racoon City catastrophe travel across the Nevada desert hoping to reach Alaska. Alice
+            joins the caravan and her fight with the diabolical Umbrella Corp.</p>
+          <br>
+          <h2>RESIDENT EVIL: AFTERLIFE</h2>
+
+
+          <p>In a world invaded by the undead, Alice continues her battle against a corporation, stopping the survivors
+            along the way. Alice, an old friend and colleagues are heading to an alleged safe place in Los Angeles.
+            However, instead of finding a sanctuary, they discover a city controlled by zombies and a trap that is to
+            surprise them.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="linemovies">
+
+
+
+      <div class="movietextelement d-flex justify-content-center align-items-center">
+        <div class="left">
+          <h2>RESIDENT EVIL: RETRIBUTION</h2>
+
+
+          <p>Risking her life while fleeing with the help of an elite commando, Alice will tour the recreations of the
+            cities of Tokyo, New York, Moscow and Washington D.C., created inside that clandestine center of the
+            Umbrella Corporation</p>
+          <br>
+          <h2>RESIDENT EVIL: THE FINAL CHAPTER</h2>
+
+
+          <p>In a devastated Washington, Alice makes contact with the Red Queen, who assures that only 4,472 humans
+            remain on Earth and that in less than 48 hours there will be none left. Umbrella’s artificial intelligence
+            asks Alice to stop the apocalypse by locating an aerial antivirus in Raccoon City that can remove the
+            T-virus and everything it has infected.</p>
+        </div>
+        <div class="right">
+          <img class="imgmovie" src="img/movie3.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+ 
+
+
+  <section class="game">
+
+    <div class="gametitle ">
+      <h2>TRIVIA</h2>
+
+    </div>
+
+    <div class="linetrivia justify-content-center .container-fluid ">
+      <div class="triviacard">
+        <div class="front">
+          <img src="img/cardstrivia.jpg" alt="">
+
+        </div>
+        <div class="back">
+          <h4>
+            Umbrella Corp does not manufacture which of the following?
+          </h4>
+          <ul>
+            <li>Pharmaceuticals</li>
+            <li>Weapons</li>
+            <li>Technology</li>
+            <li>Vehicles</li>
+          </ul>
+          <button class="button1" class="button1" onclick="gameone()">Answer</button>
+        </div>
+      </div>
+      <div class="triviacard">
+        <div class="front">
+          <img src="img/cardstrivia.jpg" alt="">
+
+        </div>
+        <div class="back">
+          <h4>
+            Alice was an employee of the Umbrella corp, doing which of the following jobs?
+          </h4>
+          <ul>
+            <li>Lab tech</li>
+            <li>Security operative</li>
+            <li>Manager</li>
+            <li>Board member</li>
+          </ul>
+          <button class="button1" class="button1" onclick="gametwo()">Answer</button>
+        </div>
+      </div>
+      <div class="triviacard">
+        <div class="front">
+          <img src="img/cardstrivia.jpg" alt="">
+
+        </div>
+        <div class="back">
+          <h4>
+            Alice lost her memory because of this.
+          </h4>
+          <ul>
+            <li>A hit to the head</li>
+            <li>Nerve gas</li>
+            <li>Hypnosis</li>
+            <li>Drugs</li>
+          </ul>
+          <button class="button1" onclick="gamethree()">Answer</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="linetrivia  ">
+      <div class="triviacard">
+        <div class="front">
+          <img src="img/cardstrivia.jpg" alt="">
+
+        </div>
+        <div class="back">
+          <h4>
+            In the second movie, Racoon City is ____________.
+          </h4>
+          <ul>
+            <li>Evacuated</li>
+            <li>Sterilized</li>
+            <li>Bombed</li>
+          </ul>
+          <button  class="button1" onclick="gamefour()">Answer</button>
+        </div>
+      </div>
+      <div class="triviacard">
+        <div class="front">
+          <img src="img/cardstrivia.jpg" alt="">
+
+        </div>
+        <div class="back">
+          <h4>
+            When Alice escapes the Detroit Umbrella facility, she has ___________.
+          </h4>
+          <ul>
+            <li>The virus</li>
+            <li>Super powers</li>
+            <li>A pet zombie</li>
+            <li>A cure for the virus</li>
+          </ul>
+          <button class="button1" onclick="gamefive()">Answer</button>
+        </div>
+      </div>
+      <div class="triviacard">
+        <div class="front">
+          <img src="img/cardstrivia.jpg" alt="">
+
+        </div>
+        <div class="back">
+          <h4>
+            In the third movie, Alice finds out that she has been ____________.
+          </h4>
+          <ul>
+            <li>Cloned</li>
+            <li>Impregnated</li>
+            <li>Given the virus</li>
+
+          </ul>
+          <button class="button1" onclick="gamesix()">Answer</button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container py-1">
+      <div class="row py-1">
+        <div class="colm1 col-lg-4 col-md-5 mb-4"><img src="img/logo umbrella sin fondoo" alt="logoum" width="180" class="mb-3">
+          <p class="text-danger">A multinational company, which is based in the United States, but has achieved great growth worldwide.</p>
+        </div>
+        <div class="colm2 col-lg-3 col-md-5 mb-4">
+          <h6 class="text-white font-weight-bold mb-5 py-5">Contact Us</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-danger">Racoon City</a></li>
+            <li class="mb-2"><a href="#" class="text-danger">residentevil@umbrellacorp.com</a></li>
+            <li class="mb-2"><a href="#" class="text-danger">+0 123456789</a></li>
+          </ul>
+        </div>
+        <div class="colm3 col-lg-4 col-md-5">
+          <h6 class="text-white font-weight-bold mb-4 py-5">About Us</h6>
+          <p class="text-danger  mb-4">BIT students - group project.</p>
+            <div class="boton">
+              <button class="btn btn-danger btn-lg">Know Us</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-danger py-1">
+      <div class="container text-center">
+        <p class="text-dark mb-0 py-2">© 2021 | All rights reserved | Resident Evil |</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="game.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
